@@ -244,12 +244,12 @@ async function ingredient(v) {
 let inputName=document.querySelector(".input1");
 let inputLetter=document.querySelector(".input2");
 async function getRandomMEals(get) {
-    let x2 = await fetch(`http://www.themealdb.com/api/json/v1/1/search.php?s=${get}`);
+    let x2 = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${get}`);
 
 
     let reqest3arr = await x2.json();
     if(reqest3arr.meals==null){
-        let x2Test = await fetch(`http://www.themealdb.com/api/json/v1/1/search.php?s=salad`);
+        let x2Test = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=salad`);
 
 
         let reqest3arrtest = await x2Test.json();
