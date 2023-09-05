@@ -1,0 +1,194 @@
+nav{
+position: fixed;
+width: 28%;
+top: 0;
+bottom: 0;
+z-index: 99999;
+
+}
+::placeholder {
+
+    color: gray !important;
+
+}
+
+
+.black-nav{
+    width:82%;
+    
+    padding-left: 10px;
+ 
+}
+
+.white-nav{
+    width: 15%;
+}
+nav{
+
+aspect-ratio: 1/1;
+flex-grow: 1;
+
+}
+.anchors a{
+    font-size: 1.1rem;
+ 
+}
+.nav-bottom p{
+    font-size: 1.1585rem;
+}
+nav i{
+    cursor: pointer;
+}
+.closing{
+    display: none;
+}
+.image-of-20-meals {
+    cursor: pointer;
+}
+.photo-slider{
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(100%);
+    transition: 0.8s all;
+}
+.image-of-20-meals:hover .photo-slider{
+    transform: translateY(0);
+
+
+}
+.photo-slider p{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.ingredients figcaption{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.paa {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.paa span{
+    font-weight: bold;
+
+}
+.badge{
+    background-color: #CFF4FC;
+    color: #055160;
+    width: 100%;
+
+    
+ 
+    
+}
+.tags-badge{
+    color: #CC703F;
+    background-color: #F8D7DA;
+    font-size: 1.2rem;
+    width: fit-content;
+}
+.tags-badge-sorurc1{
+    color: white;
+    background-color:#157347;
+    font-size: 1.2rem;
+    width: fit-content;
+}
+.tags-badge-sorurc2{
+    color: white;
+    background-color:#BB2D3B;
+    font-size: 1.2rem;
+    width: fit-content;
+}
+.tags-badge-sorurc1:hover{
+    background-color:#054125;
+}
+.tags-badge-sorurc2:hover{
+    background-color:#800a15;
+}
+
+#sec2Ing{
+    row-gap: 30px;
+}
+.image-of-20-meals2 {
+    cursor: pointer;
+}
+.photo-slider{
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(100%);
+    transition: 0.8s all;
+}
+.image-of-20-meals2:hover .photo-slider{
+    transform: translateY(0);
+
+
+}
+.image-of-20-meals3 {
+    cursor: pointer;
+}
+.photo-slider{
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(100%);
+    transition: 0.8s all;
+}
+.image-of-20-meals3:hover .photo-slider{
+    transform: translateY(0);
+
+}
+.pararg{
+ font-size: 1.1rem !important ;
+ font-weight:normal !important;
+}
+
+
+.image-of-20-meals4 {
+    cursor: pointer;
+}
+
+.image-of-20-meals4:hover .photo-slider{
+    transform: translateY(0);
+
+}
+.Countries{
+    cursor: pointer;
+}
+.image-of-20-meals6 {
+    cursor: pointer;
+}
+
+.image-of-20-meals6:hover .photo-slider{
+    transform: translateY(0);
+
+}
+.foods{
+    cursor: pointer;
+}
+.image-of-20-meals9 {
+    cursor: pointer;
+}
+
+.image-of-20-meals9:hover .photo-slider{
+    transform: translateY(0);
+
+}
+.errorMESSAGE-1 {
+    background-color: #F8D7DA;
+    color: #842029;
+    height: 70px;
+}
+.fit{
+    width: fit-content;
+}
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
